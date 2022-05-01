@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yago\\source\\repos\\SpotV019\\SpotV019.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yago\\source\\repos\\SpotV019\\SpotV019.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yago\\source\\repos\\SpotV019\\SpotV019.csproj",
+        "projectName": "SpotV019",
+        "projectPath": "C:\\Users\\yago\\source\\repos\\SpotV019\\SpotV019.csproj",
+        "packagesPath": "C:\\Users\\yago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yago\\source\\repos\\SpotV019\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\yago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "XBeeLibrary.Xamarin": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
